@@ -1,0 +1,18 @@
+Subclasses use extends keyword to extend an abstract class and they need to provide
+implementation of all the declared methods in the abstract class unless the subclass is
+also an abstract class whereas subclasses use implements keyword to implement interfaces
+and should provide implementation for all the methods declared in the interface.
+
+Abstract classes can have methods with implementation whereas interface provides absolute abstraction
+and can’t have any method implementations. Note that from Java 8 onwards, we can create default and
+static methods in interface that contains the method implementations.
+
+Abstract classes can have constructors but interfaces can’t have constructors.
+
+Abstract classes methods can have access modifiers as public, private, protected, static but interface methods
+are implicitly public and abstract, we can’t use any other access modifiers with interface methods.
+
+A subclass can extend only one abstract class but interface can implement multiple interfaces.
+
+
+We can run an abstract class if it has main() method but we can’t run an interface because they can’t have main method implementation.
