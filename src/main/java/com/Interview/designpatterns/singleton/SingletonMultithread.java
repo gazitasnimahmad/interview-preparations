@@ -27,7 +27,10 @@ public class SingletonMultithread {
     public static SingletonMultithread getInstance(){
         if(singletonMultithread == null){
             synchronized (SingletonMultithread.class){
-                return new SingletonMultithread();
+                if(singletonMultithread == null){
+                    return new SingletonMultithread();
+
+                }
             }
         }
 

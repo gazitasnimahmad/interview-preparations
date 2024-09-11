@@ -4,7 +4,6 @@ public class encapsulation {
 
 //    Encapsulation refers to the practice of bundling the data (variables) and methods (functions)
 //    that operate on the data into a single unit, usually a class,
-//    and restricting the direct access to some of the class's components.
 
 //    Benefits of Encapsulation:
 //    Data Hiding: It hides the internal state of the object and only exposes operations.
