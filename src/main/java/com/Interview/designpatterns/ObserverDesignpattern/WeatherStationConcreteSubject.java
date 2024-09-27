@@ -4,8 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class WeatherStationConcreteSubject implements Subject{
-    List<Observer> observers = new ArrayList<>();
-    String weather;
+    private List<Observer> observers = new ArrayList<>();
+    private String weather;
 
     @Override
     public void addObserver(Observer observer) {
