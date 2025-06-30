@@ -3,7 +3,7 @@ package com.Interview.designpatterns.singleton;
 public class Singleton {
     private static Singleton dbObject;
 
-    private Singleton(){
+    public Singleton(){
     }
 
     public static Singleton getInstance(){

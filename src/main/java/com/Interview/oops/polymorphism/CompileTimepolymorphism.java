@@ -32,9 +32,8 @@ public class CompileTimepolymorphism {
 //            return a + b;
 //        }
 //    }
-
-//caller class
-
+//
+//
 //public class Main {
 //    public static void main(String[] args) {
 //        Calculator calc = new Calculator();

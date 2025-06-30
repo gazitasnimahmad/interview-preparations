@@ -1,6 +1,6 @@
 package com.Interview.designpatterns.Strategypattern;
 
-public class PaymentPayment implements PaymentStrategy{
+public class PaypalPayment implements PaymentStrategy{
 
     @Override
     public void pay(int amount) {
