@@ -8,11 +8,13 @@ public class MilkDecorator extends Decorator {
 
     @Override
     public String getDescription() {
-        return coffeeDecorator.getDescription()+" : Milk";
+        return coffeeDecorator.getDescription() + " : Milk";
     }
 
     @Override
     public int getPrice() {
-        return coffeeDecorator.getPrice()+10;
+        return coffeeDecorator.getPrice() + 10 ;
     }
 }
+
+
